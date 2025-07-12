@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maths Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Maths Quiz</h1>
+        <div id="quiz-box">
+            <div id="question"></div>
+            <div id="options"></div>
+            <div id="timer">Time Left: <span id="time">10</span>s</div>
+            <div id="score">Score: <span id="points">0</span></div>
+        </div>
+        <button id="start-btn">Start Quiz</button>
+        <div id="result-box" class="hide">
+            <h2>Your Score: <span id="final-score"></span></h2>
+            <button onclick="startQuiz()">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
